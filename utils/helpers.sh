@@ -16,12 +16,14 @@ require_fish() {
   fi
 }
 
-require_wget() {
-  if ! command -v wget &>/dev/null; then
-    print_info "Installing wget..."
-    sudo pacman -S --noconfirm wget
+
+require_yay() {
+  if ! command -v yay &>/dev/null; then
+    print_info "Installing yay..."
+    sudo pacman -S --noconfirm yay
   fi
 }
+
 
 require_git() {
   if ! command -v git &>/dev/null; then

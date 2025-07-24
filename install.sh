@@ -14,4 +14,5 @@ source ./scripts/00-check-env.sh
 source ./scripts/01-install-jdk.sh
 source ./scripts/02-install-dev-tools.sh
 source ./scripts/03-install-flutter.sh
-source ./scripts/04-install-android-sdk.sh
+source ./scripts/04-install-jetbrains-toolbox.sh
+source ./scripts/05-check-flutter.sh
